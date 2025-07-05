@@ -1,0 +1,40 @@
+{
+  "email": "saifimd1234@gmail.com",
+  "password": "Revolution@2025",
+  "max_applications": 10,
+  "dry_run": true,
+  "job_keywords": ["data analyst", "data engineer", "bi developer"],
+  "resume_mapping": {
+    "analyst": "resumes/data_analyst_resume.pdf",
+    "engineer": "resumes/data_engineer_resume.pdf",
+    "bi": "resumes/bi_developer_resume.pdf"
+  },
+  "answers": {
+    "first name": "John",
+    "last name": "Doe",
+    "phone": "1234567890",
+    "are you legally authorized to work": "Yes",
+    "do you require sponsorship": "No",
+    "years of experience": "5",
+    "expected salary": "100000",
+    "notice period": "30 days",
+    "highest degree": "Master's",
+    "field of study": "Computer Science"
+  },
+  "email_settings": {
+    "sender_email": "your_email@example.com",
+    "sender_password": "your_email_password",
+    "receiver_email": "your_email@example.com",
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587
+  },
+  "data_tracking": {
+    "csv_file": "job_data.csv"
+  },
+  "frontend": {
+    "port": 8501
+  },
+  "schedule": {
+    "interval_minutes": 30
+  }
+}
